@@ -4,14 +4,16 @@
 <title>WEB1 - HTML </title>
 <meta charset="utf-8">
 <style>
-    .style{
-        margin: auto;
-        width: auto;
+    .container{
+        margin: 100px auto auto 0px;
+        width: 100px auto auto 0px;
+        position: left;
     }
-
 </style>
 
 </head>
+
+
 <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
@@ -22,8 +24,33 @@
     <div>
         <h2>HTML이란 무엇인가?</h2>
     </div>
-    <div class="style">
+    <div class="container">
         <a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
-        title="HTML5 specification">Hypertext Markup Language is the standard markup language for creating web pages and web applications. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</a>
-        <img src="coding.jpg"></img>
-    </div>  
+        title="HTML5 specification">Hypertext Markup Language</a> is the standard markup language for creating web pages and web applications. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        <p><img src="coding.jpg"></img></p>
+    </div> 
+    <div id="disqus_thread"></div>
+    <script>
+        (function () { 
+        var d = document,
+            s = d.createElement('script');
+        s.src = 'https://web1-wzfbnctuu9.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/624f78aec72df874911df0f3/1g036uraa';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>   
+</body>     
